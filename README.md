@@ -12,7 +12,7 @@ npm i accolite-web-components
 
 ```html
 <script type="module">
-  import 'accolite-web-components/accolite-web-components.js';
+  import 'accolite-web-components/accolite-button.js';
 </script>
 
 <accolite-web-components></accolite-web-components>
@@ -45,7 +45,6 @@ To build a production version of Storybook, run
 ```bash
 npm run storybook:build
 ```
-
 
 ## Tooling configs
 
