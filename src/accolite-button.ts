@@ -1,3 +1,3 @@
 import { AccoliteButton } from './AccoliteButton.js';
 
-window.customElements.define('bark-button', AccoliteButton);
+window.customElements.define('accolite-button', AccoliteButton);

@@ -3,11 +3,11 @@ import '../src/accolite-button.js';
 
 export default {
   title: 'Button',
-  component: 'bark-button',
+  component: 'accolite-button',
   argTypes: {
-    fill: { 
-        options: ['soild', 'outlined', 'flat'],
-        control: { type: 'select' } 
+    fill: {
+      options: ['soild', 'outlined', 'flat'],
+      control: { type: 'select' }
     },
     label: { control: 'text' },
     isDisabled: { control: 'boolean' },
@@ -27,11 +27,11 @@ interface ArgTypes {
 }
 
 const Template: Story<ArgTypes> = ({
-    label,
-    fill,
-    isDisabled,
+  label,
+  fill,
+  isDisabled,
 }: ArgTypes) => html`
-  <bark-button fill=${fill} label=${label} isDisabled=${isDisabled}></bark-button>
+  <accolite-button fill=${fill} label=${label} isDisabled=${isDisabled}></accolite-button>
 `;
 
 
